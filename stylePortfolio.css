@@ -1,0 +1,323 @@
+    *{
+	padding: 0;
+	margin:0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.navbar{
+	height: 100vh;
+	width: 100%;
+	background-image: url('sami.jpg');
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	font-style: italic;
+	color:white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	letter-spacing: -3px;
+	text-transform: capitalize;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+nav ul li a{
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color:red;
+	transition: .4s;
+	text-decoration: underline;
+}
+.btn{
+	background-color: black;
+	color:white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 10px 25px;
+	border-radius: 30px;
+	font-weight: bold;
+}
+.btn:hover{
+	transition: .5s;
+	color: black;
+	background-color: white;
+}
+.content{
+	position: absolute;
+	top:75%;
+	left:7%;
+	transform: translateY(-50%);
+}
+h1{
+	color: white;
+	margin:20px 0px 20px;
+	font-size: 75px;
+}
+h2{
+	çolor:white;
+	font-size: 10px;
+}
+h3{
+	color:white;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+h4{
+	color:white;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.about{
+	width: 100%;
+	padding: 70px 0px;
+	background-color: floralwhite;
+	display: flex;
+}
+.about img{
+	height: auto;
+	width: 400px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+.about-text{
+	max-width:550px;
+}
+.main{
+	width: 1100px;
+	max-width: 100%;
+	margin:0 auto;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: black;
+	font-size: 40px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: balck;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+/* Skills Section */
+#skills{
+	background-color: whitesmoke;
+	padding: 50px;
+}
+#skills .skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    flex: 1;
+    min-width: 250px;
+    background-color: White;
+    border: 1px solid blck;
+    border-radius: 7px;
+}
+
+#skills .skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    padding: 50px;
+    background-color: antiquewhite;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.container h2{
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 30px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: white;
+}
+/* Projects Section */
+#projects{
+	background-color: whitesmoke;
+	padding: 70px;
+}
+.project-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    flex: 1;
+    min-width: 300px;
+    margin: 20px;
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+#projects .container h3{
+	color: black;
+	text-align: center;
+}
+footer{
+	display: block;
+}
+.foot{
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	z-index: 0;
+	position: relative;
+	text-align: center !important;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: 150px;
+}
+p{
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+/* Skills Section */
+#education{
+	background-color: white;
+	padding: 70px;
+}
+#education .edu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.educa {
+    flex: 1;
+    min-width: 250px;
+    background-color: White;
+    border: 1px solid blck;
+    border-radius: 7px;
+}
+
+#education .edu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.educa {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.educa p{
+	font-size: 20px;
+}
+.con h2{
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    color: black;
+}
+.col p{
+	text-align: center !important;
+}
+
+
+#hobby{
+	background-color: white;
+	padding: 50px;
+}
+#hobby .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item{
+    flex: 1;
+    min-width: 200px;
+    background-color: White;
+    border-radius: 10px;
+}
+
+#hobby .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.hob h2{
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 30px;
+}
+
+.hob .item h3 {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
